@@ -23,8 +23,8 @@
 #include "common.h"
 #include "freelist.h"
 #include "model_interface.h"
-#include "sentencepiece_model.pb.h"
-#include "third_party/darts_clone/darts.h"
+#include "builtin_pb/sentencepiece_model.pb.h"
+#include "../third_party/darts_clone/darts.h"
 
 namespace sentencepiece {
 namespace unigram {
