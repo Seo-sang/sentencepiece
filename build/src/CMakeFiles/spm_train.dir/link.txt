@@ -1,0 +1,1 @@
+/usr/bin/clang++ -O3 -Wall -fPIC  -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/spm_train.dir/spm_train_main.cc.o -o spm_train  -Wl,-rpath,/Users/seosanghyeon/Research/sentencepiece/build/src libsentencepiece_train.0.0.0.dylib libsentencepiece.0.0.0.dylib 

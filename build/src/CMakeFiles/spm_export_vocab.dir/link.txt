@@ -1,0 +1,1 @@
+/usr/bin/clang++ -O3 -Wall -fPIC  -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/spm_export_vocab.dir/spm_export_vocab_main.cc.o -o spm_export_vocab  -Wl,-rpath,/Users/seosanghyeon/Research/sentencepiece/build/src libsentencepiece.0.0.0.dylib 
